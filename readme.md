@@ -1,4 +1,4 @@
-# 3D MOT for Waymo dataset
+# 3D MOT on Waymo dataset
 This project is developed for online 3D multi-object tracking on Waymo dataset. The tracking code
  is from [here](https://github.com/hailanyi/3D-Multi-Object-Tracker).
 The visualization code is from
