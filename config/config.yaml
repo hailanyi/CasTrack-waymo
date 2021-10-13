@@ -1,0 +1,47 @@
+info_path: "data/waymo/infos"
+detections_path: "data/waymo/detections"
+save_path: 'create_submission/pred_infos_val/2021-10-12-cascade3d/'
+
+split: 'val'
+
+# tracking class
+tracking_class: ['Vehicle', 'Cyclist', 'Pedestrian']
+
+Vehicle:
+    state_func_covariance: 100
+    measure_func_covariance: 0.001
+    prediction_score_decay: 0.03
+    LiDAR_scanning_frequency: 10
+    max_prediction_num: 30
+    max_prediction_num_for_new_object: 30
+    input_score: 0.5
+    init_score: 0.8
+    update_score: 0
+    post_score: 0.5
+    latency: 0
+
+Pedestrian:
+    state_func_covariance: 100
+    measure_func_covariance: 0.001
+    prediction_score_decay: 0.03
+    LiDAR_scanning_frequency: 10
+    max_prediction_num: 30
+    max_prediction_num_for_new_object: 30
+    input_score: 0.5
+    init_score: 0.8
+    update_score: 0
+    post_score: 0.5
+    latency: 0
+
+Cyclist:
+    state_func_covariance: 100
+    measure_func_covariance: 0.001
+    prediction_score_decay: 0.03
+    LiDAR_scanning_frequency: 10
+    max_prediction_num: 30
+    max_prediction_num_for_new_object: 30
+    input_score: 0.5
+    init_score: 0.8
+    update_score: 0
+    post_score: 0.5
+    latency: 0
