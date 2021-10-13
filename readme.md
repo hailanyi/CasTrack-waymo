@@ -6,9 +6,9 @@ The visualization code is from
 ![](./doc/demo.gif)
 
 ## Waymo Results
-**Vehicle/Pedestrian/Cyclist** online tracking results, evaluated by Waymo benchmark. 
+**Vehicle/Pedestrian/Cyclist** online tracking results, evaluated by **MOTA/L2** metrics of Waymo benchmark. 
 
-|set|Vehicle|Pedestrian|Cyclist| all |
+|set|Vehicle_L2|Pedestrian_L2|Cyclist_L2| ALL_NS_L2 |
 |:---:|:---:|:---:|:---:|:---:|
 |val set|59.30|62.78|61.72|61.27|
 |test set|63.66|64.79|59.34|62.60|
