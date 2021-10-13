@@ -14,8 +14,8 @@ The visualization code is from
 |test set|63.66|64.79|59.34|62.60|
  
 ## Prepare data 
-You can download the waymo dataset infos and Cascade3D detections from [here](https://drive.google.com/drive/folders/1Vw_Mlfy_fJY6u0JiCD-RMb6_m37QAXPQ?usp=sharing)
-, To obtain the download password, please send us (wuhai@stu.xmu.edu.cn) an email  with your name, institute, a screenshot of the the Waymo dataset download page 
+You can download the waymo dataset infos and Cascade3D detections from google drive.
+ To obtain the download link, please send us (wuhai@stu.xmu.edu.cn) an email  with your name, institute, a screenshot of the the Waymo dataset download page 
 (please note that Waymo open dataset is under strict non-commercial license).
 
 ## Quick start
