@@ -1,7 +1,7 @@
 # 3D MOT on Waymo dataset
-This project is developed for online 3D multi-object tracking on Waymo dataset. The tracking code
- is from [here](https://github.com/hailanyi/3D-Multi-Object-Tracker).
-The visualization code is from
+This project is developed for online 3D multi-object tracking on Waymo dataset. It is build upon Cascade3D
+ detector and CA-based KF tracker. The tracking code
+ is from [here](https://github.com/hailanyi/3D-Multi-Object-Tracker); detector is from [here](https://github.com/hailanyi/Cascade3D); visualization code is from
 [here](https://github.com/hailanyi/3D-Detection-Tracking-Viewer).
 ![](./doc/demo.gif)
 
