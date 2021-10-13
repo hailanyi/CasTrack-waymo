@@ -1,4 +1,4 @@
-#3D MOT for waymo dataset
+# 3D MOT for waymo dataset
 This project is developed for online 3D multi-object tracking on waymo dataset. The tracking code
  is from [here](https://github.com/hailanyi/3D-Multi-Object-Tracker).
 The visualization code is from
@@ -15,7 +15,7 @@ The visualization code is from
  
 ## Prepare data 
 You can download the waymo dataset infos and Cascade3D detections from [here](https://drive.google.com/drive/folders/1Vw_Mlfy_fJY6u0JiCD-RMb6_m37QAXPQ?usp=sharing)
-, To obtain the download password, please send us an email with your name, institute, a screenshot of the the Waymo dataset download page 
+, To obtain the download password, please send us (wuhai@stu.xmu.edu.cn) an email  with your name, institute, a screenshot of the the Waymo dataset download page 
 (please note that Waymo open dataset is under strict non-commercial license).
 
 ## Quick start
