@@ -8,6 +8,8 @@ This project is developed for online 3D multi-object tracking on Waymo dataset. 
 ## Waymo Results
 **Vehicle/Pedestrian/Cyclist** online tracking results, evaluated by **MOTA/L2** metrics of Waymo benchmark. 
 
+The results ranks 2nd up to October 14, 2021.
+
 |set|Vehicle_L2|Pedestrian_L2|Cyclist_L2| ALL_NS_L2 |
 |:---:|:---:|:---:|:---:|:---:|
 |val set|59.30|62.78|61.72|61.27|
