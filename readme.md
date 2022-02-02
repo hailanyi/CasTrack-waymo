@@ -1,7 +1,7 @@
 # 3D MOT on Waymo dataset
-This project is developed for online 3D multi-object tracking on Waymo dataset. It is build upon Cascade3D
+This project is developed for online 3D multi-object tracking on Waymo dataset. It is build upon CasA
  detector and CA-based KF tracker. The tracking code
- is from [here](https://github.com/hailanyi/3D-Multi-Object-Tracker); detector is from [here](https://github.com/hailanyi/Cascade3D); visualization code is from
+ is from [here](https://github.com/hailanyi/3D-Multi-Object-Tracker); detector is from [here](https://github.com/hailanyi/CasA); visualization code is from
 [here](https://github.com/hailanyi/3D-Detection-Tracking-Viewer).
 ![](./doc/demo.gif)
 
@@ -16,7 +16,7 @@ The results ranks lst on LiDAR-based methods up to October 14, 2021.
 |test set|63.66|64.79|59.34|62.60|
  
 ## Prepare data 
-You can download the waymo dataset infos and Cascade3D detections from google drive.
+You can download the waymo dataset infos and CasA detections from google drive.
  To obtain the download link, please send us (wuhai@stu.xmu.edu.cn) an email  with your name, institute, a screenshot of the Waymo dataset download page 
 (please note that Waymo open dataset is under strict non-commercial license).
 
