@@ -1,6 +1,6 @@
 info_path: "data/waymo/infos"
 detections_path: "data/waymo/detections"
-save_path: 'create_submission/pred_infos_val/2021-10-12-cascade3d/'
+save_path: 'create_submission/pred_infos_val/2021-10-12-casA/'
 
 split: 'val'
 
